@@ -5,15 +5,17 @@ Component({
         appId: String,
     },
     data: {
+        jumpAppId: '',
         apps: [],
         current: 0,
         intervalId: 0,
     },
     attached() {
         getAdApps(this.data.appId)
-            .then((apps) => {
+            .then(({ apps, jumpAppId }) => {
                 this.setData({
                     apps,
+                    jumpAppId,
                 });
                 this.startCarousel();
             }, (err) => {
@@ -32,6 +34,17 @@ Component({
         },
         stopCarousel() {
             clearInterval(this.intervalId);
+        },
+        handleTap(e) {
+            const { jumpAppId } = this.data;
+            const { appId } = e.currentTarget.dataset;
+            console.log('jump to %s with appId %s', jumpAppId, appId);
+            wx.navigateToMiniProgram({
+                appId: jumpAppId,
+                extraData: {
+                    appId,
+                },
+            });
         },
     },
     detached() {

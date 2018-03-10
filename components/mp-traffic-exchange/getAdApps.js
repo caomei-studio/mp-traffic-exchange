@@ -21,7 +21,10 @@ module.exports = function getAdApps(appId, force) {
                         reject(new Error('获取推荐小程序失败'));
                         return;
                     }
-                    resolve(data);
+                    resolve({
+                        jumpAppId: data[0].jumpAppId,
+                        apps: data,
+                    });
                 },
                 fail(err) {
                     console.error(err);

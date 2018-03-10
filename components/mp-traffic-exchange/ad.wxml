@@ -1,5 +1,7 @@
 <view
     class="ad"
+    bindtap="handleTap"
+    data-app-id="{{ apps[current].appId }}"
     wx:if="{{ apps.length > 0 }}"
     style="bottom: {{ bottom }}; backgroud-color: {{ backgroundColor }}"
 >
