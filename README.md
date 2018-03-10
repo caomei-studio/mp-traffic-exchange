@@ -26,7 +26,7 @@
 ></mp-traffic-exchange-ad>
 ```
 
-![mp-traffic-exchange-ad.jpeg](./screenshots/mp-traffic-exchange-ad.jpeg =350x)
+<img src="./screenshots/mp-traffic-exchange-ad.jpeg" alt="mp-traffic-exchange-ad.jpeg" width="375px" />
 
 ## Other
 
