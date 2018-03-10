@@ -26,11 +26,11 @@
 ></mp-traffic-exchange-ad>
 ```
 
-![mp-traffic-exchange-ad.jpeg](./screenshots/mp-traffic-exchange-ad.jpeg)
+![mp-traffic-exchange-ad.jpeg](./screenshots/mp-traffic-exchange-ad.jpeg =350x)
 
 ## Other
 
-这项目只是示例，也可以自己请求接口，展示其它小程序广告。
+这项目只是示例, 也可以自己请求接口展示其它小程序广告.
 
 约定以如下方式跳转推荐小程序
 
