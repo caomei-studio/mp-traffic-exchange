@@ -44,3 +44,24 @@
     overflow-wrap: break-word;
     word-wrap: break-word;
 }
+
+.trans {
+    animation: trans 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+}
+
+@keyframes trans {
+    0%   {
+        opacity: 0;
+    }
+    20%  {
+        opacity: 1;
+    }
+    90%  {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}

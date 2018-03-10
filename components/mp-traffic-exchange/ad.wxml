@@ -1,5 +1,5 @@
 <view
-    class="ad"
+    class="ad trans"
     bindtap="handleTap"
     data-app-id="{{ apps[current].appId }}"
     wx:if="{{ apps.length > 0 }}"
