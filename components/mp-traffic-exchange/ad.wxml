@@ -1,4 +1,8 @@
-<view class="ad" wx:if="{{ apps.length > 0 }}">
-    <image src="{{ apps[current].avatarUrl }}" class="ad__avatar"/>
+<view
+    class="ad"
+    wx:if="{{ apps.length > 0 }}"
+    style="bottom: {{ bottom }}; backgroud-color: {{ backgroundColor }}"
+>
+    <image src="{{ apps[current].avatarUrl }}" class="ad__avatar" mode="widthFix"/>
     <view class="ad__name">{{ apps[current].appName }}</view>
 </view>

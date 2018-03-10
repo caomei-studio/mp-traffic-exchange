@@ -1,5 +1,46 @@
+:host {
+    background-color: orange;
+    color: #FFF;
+    font-size: 24rpx;
+    text-align: center;
+    position: fixed;
+    right: 0;
+    bottom: 120rpx;
+
+    height: 80rpx;
+    width: 250rpx;
+
+    border-top-left-radius: 20% 50%;
+    border-bottom-left-radius: 20% 50%;
+}
+
 .ad {
-    display: block;
-    background-color: red;
-    padding: 20rpx;
+    box-sizing: border-box;
+    padding: 0 15rpx;
+    height: 100%;
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.ad__avatar {
+    flex: 0 0 60rpx;
+    width: 60rpx;
+    height: 60rpx;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 10rpx;
+}
+
+.ad__name {
+    flex: 1 1;
+
+    max-height: 60rpx;
+    line-height: 30rpx;
+
+    overflow: hidden;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
 }
