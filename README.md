@@ -27,3 +27,18 @@
 ```
 
 ![mp-traffic-exchange-ad.jpeg](./screenshots/mp-traffic-exchange-ad.jpeg)
+
+## Other
+
+这项目只是示例，也可以自己请求接口，展示其它小程序广告。
+
+约定以如下方式跳转推荐小程序
+
+```js
+ wx.navigateToMiniProgram({
+    appId: jumpAppId, // 中间小程序appId, 接口返回
+    extraData: {
+        appId, // 推荐小程序appId, 接口返回
+    },
+});
+```
