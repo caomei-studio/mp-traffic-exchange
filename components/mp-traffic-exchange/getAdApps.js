@@ -35,4 +35,4 @@ module.exports = function getAdApps(appId, force) {
         });
     }
     return requestPormises[appId];
-}
+};
