@@ -1,0 +1,5 @@
+{
+    "usingComponents": {
+        "mp-traffic-exchange-ad": "../components/mp-traffic-exchange/ad"
+    }
+}

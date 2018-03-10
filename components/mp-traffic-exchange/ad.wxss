@@ -1,0 +1,5 @@
+.ad {
+    display: block;
+    background-color: red;
+    padding: 20rpx;
+}

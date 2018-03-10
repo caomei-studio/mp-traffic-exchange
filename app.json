@@ -1,0 +1,9 @@
+
+{
+    "pages": [
+        "pages/example"
+    ],
+    "window": {
+        "navigationBarTitleText": "小程序流量互换示例"
+    }
+}

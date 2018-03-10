@@ -1,0 +1,4 @@
+<view class="ad" wx:if="{{ apps.length > 0 }}">
+    <image src="{{ apps[current].avatarUrl }}" class="ad__avatar"/>
+    <view class="ad__name">{{ apps[current].appName }}</view>
+</view>
