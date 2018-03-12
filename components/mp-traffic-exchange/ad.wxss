@@ -32,6 +32,9 @@
     border-radius: 50%;
     display: inline-block;
     margin-right: 10rpx;
+    background-color: transparent;
+    background-size: 100%;
+    background-size: cover;
 }
 
 .ad__name {

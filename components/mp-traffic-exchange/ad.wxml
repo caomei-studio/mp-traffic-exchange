@@ -5,6 +5,6 @@
     wx:if="{{ apps.length > 0 }}"
     style="bottom: {{ bottom }}; backgroud-color: {{ backgroundColor }}"
 >
-    <image src="{{ apps[current].avatarUrl }}" class="ad__avatar" mode="widthFix"/>
+    <view class="ad__avatar" style="background-image: url({{ apps[current].avatarUrl }});"></view>
     <view class="ad__name">{{ apps[current].appName }}</view>
 </view>
