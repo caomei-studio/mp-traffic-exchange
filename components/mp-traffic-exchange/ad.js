@@ -30,7 +30,7 @@ Component({
                 this.setData({
                     current: (current + 1) % apps.length,
                 });
-            }, 4e3); // 3s轮播
+            }, 4e3); // 4s轮播
         },
         stopCarousel() {
             clearInterval(this.intervalId);
