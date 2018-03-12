@@ -1,20 +1,20 @@
 <view>
     <mp-traffic-exchange-ad
-        appId="wx957c50ff41081cf7"
+        app-id="wx957c50ff41081cf7"
     ></mp-traffic-exchange-ad>
 
     <mp-traffic-exchange-ad
-        appId="wx957c50ff41081cf7"
+        app-id="wx957c50ff41081cf7"
         style="top: 60rpx; text-align: right; color: #0f3; background-color: #123;"
     ></mp-traffic-exchange-ad>
 
     <mp-traffic-exchange-ad
-        appId="wx957c50ff41081cf7"
+        app-id="wx957c50ff41081cf7"
         style="top: 200rpx; width: 200rpx; font-size: 20rpx; height: 70rpx; background-color: #321;"
     ></mp-traffic-exchange-ad>
 
     <mp-traffic-exchange-ad
-        appId="wx957c50ff41081cf7"
+        app-id="wx957c50ff41081cf7"
         style="top: 340rpx; height: 100rpx; width: 300rpx; font-size: 32rpx;"
     ></mp-traffic-exchange-ad>
 </view>

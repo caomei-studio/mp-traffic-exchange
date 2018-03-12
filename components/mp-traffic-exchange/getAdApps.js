@@ -24,7 +24,7 @@ module.exports = function getAdApps(appId, force) {
     if (force || !(appId in requestPormises)) {
         requestPormises[appId] = new Promise((resolve, reject) => {
             wx.request({
-                url: 'https://www.xisole.cn/app/ma/list',
+                url: 'https://www.xisole.cn/app/ma/recommend_list',
                 data: {
                     appId,
                 },
@@ -36,9 +36,10 @@ module.exports = function getAdApps(appId, force) {
                         reject(new Error('获取推荐小程序失败'));
                         return;
                     }
+                    console.log("data: ", data);
                     resolve({
-                        jumpAppId: data[0].jumpAppId,
-                        apps: data,
+                        jumpAppId: data.jumpAppID,
+                        apps: data.wxAppVOs,
                     });
                 },
                 fail(err) {
