@@ -40,7 +40,7 @@
 ```xml
 <!-- 更多示例参考page/example.wxml -->
 <mp-traffic-exchange-ad
-    appId="wx957c50ff41081cf7"
+    app-id="wx957c50ff41081cf7"
     style="text-align: right; color: #0f3; background-color: #123;"
 ></mp-traffic-exchange-ad>
 ```
