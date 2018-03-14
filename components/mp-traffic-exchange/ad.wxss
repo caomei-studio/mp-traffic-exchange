@@ -59,8 +59,11 @@
     20%  {
         opacity: 1;
     }
-    90%  {
+    80%  {
         opacity: 1;
+    }
+    90%  {
+        opacity: 0;
     }
     100% {
         opacity: 0;

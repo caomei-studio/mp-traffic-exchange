@@ -38,12 +38,15 @@ Component({
         handleTap(e) {
             const { jumpAppId } = this.data;
             const { appId } = e.currentTarget.dataset;
-            console.log('jump to %s with appId %s', jumpAppId, appId);
+            let ext = {
+                appId: appId
+            };
+            console.log('jump to ', jumpAppId);
+            console.log('appId ', appId);
             wx.navigateToMiniProgram({
                 appId: jumpAppId,
-                extraData: {
-                    appId,
-                },
+                path: "pages/more/more",
+                extraData: ext,
             });
         },
     },
