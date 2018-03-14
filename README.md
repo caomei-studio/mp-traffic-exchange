@@ -44,13 +44,14 @@
     style="text-align: right; color: #0f3; background-color: #123;"
 ></mp-traffic-exchange-ad>
 ```
+推荐组件的样式和位置可以根据自己小程序具体需要自行调节
+app-id 此处必须填写自己小程序的 appId
 
 <img src="./screenshots/mp-traffic-exchange-ad.jpeg" alt="mp-traffic-exchange-ad.jpeg" width="375px" />
 
 ## Other
 
 这项目只是示例, 也可以自己请求接口展示其它小程序广告.
-推荐组件的样式和位置可以根据自己小程序具体需要自行调节
 
 约定以如下方式跳转推荐小程序
 
